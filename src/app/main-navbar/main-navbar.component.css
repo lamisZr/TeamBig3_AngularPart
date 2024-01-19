@@ -1,0 +1,60 @@
+/* Navbar styling */
+.navbar {
+    background-color: steelblue;
+    /* Dark background color */
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-size: 20px;
+    /* White text color */
+}
+
+/* Navbar toggler styling */
+.navbar-toggler {
+    border-color: #ffffff;
+    /* White border color */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff;
+    /* White background color for the toggler icon */
+}
+
+/* Navbar links styling */
+.navbar-nav .nav-item {
+    margin-right: 15px;
+    /* Margin between nav items */
+}
+
+.navbar-nav .nav-link {
+    color:darkgoldenrod;
+    font-weight: bold;
+    font-size: 20px;
+    /* White text color for links */
+}
+
+.navbar-nav .nav-link:hover {
+    color:darkgrey
+
+    /* Lighter text color on hover */
+}
+
+/* Active link styling */
+.navbar-nav .nav-item.active .nav-link {
+    color: #17a2b8;
+    
+    /* Color for active link */
+}
+
+/* Container styling */
+.container {
+    padding-right: 15px;
+    /* Padding on the right side of the container */
+    padding-left: 15px;
+    /* Padding on the left side of the container */
+    margin-right: auto;
+    /* Auto margin on the right side */
+    margin-left: auto;
+    /* Auto margin on the left side */
+}

@@ -1,0 +1,26 @@
+<div class="container">
+    <h2>List of Stocks</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Open Price</th>
+                <th>High Price</th>
+                <th>Low Price</th>
+                <th>Close Price</th>
+                <th>Trading Volume</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let stock of stockList">
+                <td>{{ stock.date }}</td>
+                <td>{{ stock.openprice }}</td>
+                <td>{{ stock.highprice }}</td>
+                <td>{{ stock.lowprice }}</td>
+                <td>{{ stock.closeprice }}</td>
+                <td>{{ stock.volume }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
